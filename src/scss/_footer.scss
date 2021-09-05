@@ -1,0 +1,31 @@
+.footer{
+    font-size: 14px;
+    text-align: center;
+    &__wrap{
+        border-top: 1px solid #666f7936; 
+        padding: 50px 0 25px;
+        color: $colorFontFooter;
+        line-height: 1.8;
+        @media screen and(min-width: 850px){
+            padding: 40px 0 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &__bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__logo{
+        margin-left: 15px;
+    }
+    .copyright{
+        margin-bottom: 30px;
+        @media screen and(min-width: 850px){
+            margin-bottom: 0;
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.stock{
+    background: linear-gradient(223.85deg, #FACCA9 -13.11%, #FFAE70 51.64%);
+    position: relative;
+    padding: 73px 28px;
+    @include tablet{
+        padding: 83px;
+    }
+    &::after{
+        content: "";
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        width: 100%;
+        height: 85%;
+        background-image: url('../img/bg.svg');
+        background-size: cover;
+        position: absolute;
+    }
+
+    &__block{
+        padding: 40px 15px 45px;
+        max-width: 535px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        @include tablet{
+            border-radius: 12px;
+            padding: 60px 15px 70px;
+        }
+        &::after{
+            content: "";
+            top: 11px;
+            right: 11px;
+            width: 19px;
+            height: 19px;
+            position: absolute;
+            border-radius: 50px;
+            background: linear-gradient(223.85deg, #FACCA9 -13.11%, #FFAE70 51.64%);
+            box-shadow: inset 0px 2.61345px 3.4846px rgba(0, 0, 0, 0.05), inset 0px 1.7423px 7.84034px rgba(0, 0, 0, 0.25);
+            @include tablet{
+                width: 22px;
+                height: 22px;
+                top: 13px;
+                right: 13px;
+            }
+        }
+        &::before{
+            content: "";
+            top: -26px;
+            right: 15px;
+            width: 50px;
+            height: 50px;
+            z-index: 1;
+            position: absolute;
+            background-image: url(../img/braid.svg);
+            background-repeat: no-repeat;
+            @include tablet{
+                top: -13px;
+                right: -30px;
+                transform: rotate(-75deg);
+            }
+        }
+        .free{
+            content: "";
+            top: -80px; 
+            right: 40px;
+            width: 90px;
+            height: 73px;
+            position: absolute;
+            background-image: url('../img/free-mobile.svg'); 
+            @include tablet{
+                height: 90px;
+                top: -35px;
+                right: -100px;
+                background-image: url('../img/free-desktop.svg'); 
+            }
+        }
+        .title{
+            margin-bottom: 5px;
+            @include tablet{
+                margin-bottom: 10px; 
+            }
+        }
+    }
+}

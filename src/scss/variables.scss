@@ -1,0 +1,77 @@
+//fonts
+$mainFont: 'Proxima Soft';
+
+
+// color
+$mainColor: #293746;
+$accentColor: #F97200;
+$black: #000;
+
+$colorFontFooter: #666F79;
+$colorTitle: $black;
+
+
+// breakpoints
+$mobile-sm: 375px;
+$mobile-md: 425px;
+$mobile-lg: 576px;
+$tablet: 768px; 
+$desktop-sm: 992px;
+$desktop-md: 1024px;
+$tabtoslide: 1200px;
+$wide-screen-sm: 1280px;
+$wide-screen-md: 1360px;
+$wide-screen-lg: 1599px;
+
+
+// mixin
+@mixin mobile-sm {
+	@media (min-width: $mobile-sm) {
+		@content;
+	}
+}
+@mixin mobile-md {
+	@media (min-width: $mobile-md) {
+		@content;
+	}
+}
+@mixin mobile-lg {
+	@media (min-width: $mobile-lg) {
+		@content;
+	}
+}
+@mixin tablet {
+	@media (min-width: $tablet) {
+		@content;
+	}
+}
+@mixin desktop-sm {
+	@media (min-width: $desktop-sm) {
+		@content;
+	}
+}
+@mixin desktop-md {
+	@media (min-width: $desktop-md) {
+		@content;
+	}
+}
+@mixin tabtoslide {
+	@media (min-width:$tabtoslide) {
+		@content;
+	}
+}
+@mixin wide-screen-sm {
+	@media (min-width: $wide-screen-sm) {
+		@content;
+	}
+}
+@mixin wide-screen-md {
+	@media (min-width: $wide-screen-md) {
+		@content;
+	}
+}
+@mixin wide-screen-lg {
+	@media (min-width: $wide-screen-lg) {
+		@content;
+	}
+}

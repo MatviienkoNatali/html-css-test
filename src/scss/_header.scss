@@ -1,0 +1,31 @@
+.header{
+    padding: 35px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    @include tablet{
+        padding: 40px 0;
+    }
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        display: flex;
+        font-size: 19px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .button{
+        display: none;
+        @include tablet{
+            display: block;
+        }
+    }
+    &__icon{
+        height: 17px;
+        width: 25px;
+        margin-left: 2px;
+    }
+}

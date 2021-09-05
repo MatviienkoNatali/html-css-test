@@ -22,7 +22,7 @@ let path = {
     html: source_folder + "/**/*.html",
     css: source_folder +  "/scss/**/*.scss",
     js: source_folder + "/js/*.js",
-    img: source_folder + "/img/**/*.{jpeg,jpg,png,svg,gif,ico,webp}"
+    img: source_folder + "/img/**/*.{jpeg,jpg,png,svg,gif,ico,webp}",
   },
   clean: "./" + project_folder + "/"
 }
@@ -119,7 +119,6 @@ function watchFiles(params) {
   gulp.watch([path.watch.img], images);
 }
 
-// удаление папки dist
 function clean(params) {
   return del(path.clean);
 }
