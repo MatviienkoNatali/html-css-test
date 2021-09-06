@@ -225,10 +225,61 @@ img {
   background: -o-linear-gradient(top, rgba(255, 241, 233, 0.5) 21.76%, rgba(255, 241, 233, 0) 100%);
   background: linear-gradient(180deg, rgba(255, 241, 233, 0.5) 21.76%, rgba(255, 241, 233, 0) 100%);
   height: 100vh;
+  position: relative;
 }
 
 .hero .container {
   height: 100%;
+}
+
+.hero__bg {
+  display: none;
+}
+
+.hero__bg img {
+  position: absolute;
+}
+
+.hero__bg .plus-mini {
+  width: 20px;
+  height: 20px;
+  top: 20%;
+  left: 15%;
+}
+
+.hero__bg .plus {
+  width: 80px;
+  height: 80px;
+  top: 80%;
+  right: 20%;
+}
+
+.hero__bg .square {
+  width: 47px;
+  height: 47px;
+  top: 20%;
+  right: 30%;
+}
+
+.hero__bg .subtract-icon {
+  width: 52px;
+  height: 37px;
+  top: 80%;
+  left: 30%;
+}
+
+.hero__bg .point {
+  width: 24px;
+  height: 24px;
+  top: 40%;
+  right: 10%;
+}
+
+.hero__bg .point-2 {
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  left: 10%;
 }
 
 .hero .button {
@@ -447,6 +498,10 @@ img {
   }
 
   .header .button {
+    display: block;
+  }
+
+  .hero__bg {
     display: block;
   }
 
