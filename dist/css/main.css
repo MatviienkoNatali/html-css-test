@@ -287,6 +287,7 @@ img {
   min-width: 270px;
   padding: 15px;
   display: block;
+  font-size: 16px;
 }
 
 .hero .button__accent {
@@ -295,6 +296,8 @@ img {
 
 .hero .description {
   margin-bottom: 55px;
+  font-size: 18px;
+  line-height: 1.8;
 }
 
 .hero__wrap {
@@ -515,6 +518,7 @@ img {
   }
 
   .hero .description {
+    font-size: 20px;
     margin-bottom: 50px;
   }
 
@@ -619,5 +623,11 @@ img {
   .footer .copyright {
     margin-bottom: 0;
     text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    font-size: 16px;
   }
 }
