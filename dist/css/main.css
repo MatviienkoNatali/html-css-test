@@ -464,8 +464,8 @@ img {
 
 .faq__wrap {
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 12px 52px rgba(0, 0, 0, 0.03), 0px 2.68036px 17.869px rgba(0, 0, 0, 0.0238443), 0px 0.79801px 5.32008px rgba(0, 0, 0, 0.0161557);
-          box-shadow: 0px 12px 52px rgba(0, 0, 0, 0.03), 0px 2.68036px 17.869px rgba(0, 0, 0, 0.0238443), 0px 0.79801px 5.32008px rgba(0, 0, 0, 0.0161557);
+  -webkit-box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.03), 0px 2.68036px 17.869px rgba(0, 0, 0, 0.0238443), 0px 0.79801px 5.32008px rgba(0, 0, 0, 0.0161557);
+          box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.03), 0px 2.68036px 17.869px rgba(0, 0, 0, 0.0238443), 0px 0.79801px 5.32008px rgba(0, 0, 0, 0.0161557);
   border-radius: 12px;
 }
 
