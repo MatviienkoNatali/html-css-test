@@ -108,6 +108,7 @@ img {
   text-align: center;
   font-weight: 600;
   color: #000;
+  letter-spacing: 0.6px;
 }
 
 .button {
@@ -161,7 +162,7 @@ img {
 }
 
 .header {
-  padding: 35px 0;
+  padding: 32px 0;
   position: absolute;
   top: 0;
   width: 100%;
@@ -238,7 +239,8 @@ img {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(21.76%, rgba(255, 241, 233, 0.5)), to(rgba(255, 241, 233, 0)));
   background: -o-linear-gradient(top, rgba(255, 241, 233, 0.5) 21.76%, rgba(255, 241, 233, 0) 100%);
   background: linear-gradient(180deg, rgba(255, 241, 233, 0.5) 21.76%, rgba(255, 241, 233, 0) 100%);
-  height: 665px;
+  height: auto;
+  padding: 112px 0 63px 0;
 }
 
 .hero .container {
@@ -261,30 +263,30 @@ img {
 }
 
 .hero__bg .plus {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   top: 71%;
-  right: 21%;
+  right: 10%;
 }
 
 .hero__bg .square {
   width: 47px;
   height: 47px;
   top: 20%;
-  right: 30%;
+  right: 29%;
 }
 
 .hero__bg .subtract-icon {
   width: 52px;
   height: 37px;
   top: 77%;
-  left: 21%;
+  left: 13%;
 }
 
 .hero__bg .point {
   width: 30px;
   height: 30px;
-  top: 39%;
+  top: 47%;
   right: 6%;
 }
 
@@ -307,9 +309,10 @@ img {
 }
 
 .hero .description {
-  margin-bottom: 55px;
+  margin-bottom: 60px;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.6;
+  letter-spacing: 0.7px;
 }
 
 .hero__wrap {
@@ -330,14 +333,16 @@ img {
   font-size: 38px;
   margin-bottom: 10px;
   font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.6px;
 }
 
 .features {
-  margin-bottom: 80px;
+  margin-bottom: 78px;
 }
 
 .features .title {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .features__block {
@@ -345,7 +350,7 @@ img {
           box-shadow: 0px 9.06186px 60.4124px rgba(0, 0, 0, 0.04), 0px 2.02408px 13.4939px rgba(0, 0, 0, 0.0238443), 0px 0.60262px 4.01748px rgba(0, 0, 0, 0.0161557);
   border-radius: 9px;
   background: #fff;
-  padding: 27px 20px;
+  padding: 23px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -354,6 +359,7 @@ img {
           align-items: center;
   margin-bottom: 15px;
   font-size: 15px;
+  letter-spacing: 0.7px;
 }
 
 .features__icon {
@@ -388,7 +394,7 @@ img {
   background: -o-linear-gradient(226.15deg, #FACCA9 -13.11%, #FFAE70 51.64%);
   background: linear-gradient(223.85deg, #FACCA9 -13.11%, #FFAE70 51.64%);
   position: relative;
-  padding: 73px 28px;
+  padding: 72px 28px;
 }
 
 .stock::after {
@@ -406,12 +412,13 @@ img {
 }
 
 .stock__block {
-  padding: 40px 15px 45px;
+  padding: 40px 15px 56px;
   margin: 0 auto;
   background: #fff;
   border-radius: 10px;
   text-align: center;
   position: relative;
+  letter-spacing: 0.9px;
 }
 
 .stock__block::after {
@@ -455,7 +462,7 @@ img {
 }
 
 .faq {
-  margin: 60px 0 45px;
+  margin: 70px 0 45px;
 }
 
 .faq .title {
@@ -467,6 +474,8 @@ img {
   -webkit-box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.03), 0px 2.68036px 17.869px rgba(0, 0, 0, 0.0238443), 0px 0.79801px 5.32008px rgba(0, 0, 0, 0.0161557);
           box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.03), 0px 2.68036px 17.869px rgba(0, 0, 0, 0.0238443), 0px 0.79801px 5.32008px rgba(0, 0, 0, 0.0161557);
   border-radius: 12px;
+  letter-spacing: 0.5px;
+  line-height: 1.68;
 }
 
 .faq__block {
@@ -479,8 +488,10 @@ img {
 }
 
 .faq__question {
+  letter-spacing: 1px;
   font-weight: 700;
   margin-bottom: 12px;
+  line-height: 1.3;
 }
 
 @media (min-width: 425px) {
@@ -508,6 +519,7 @@ img {
 
   .title {
     font-size: 36px;
+    letter-spacing: 1px;
   }
 
   .header {
@@ -516,6 +528,11 @@ img {
 
   .header .button {
     display: block;
+  }
+
+  .hero {
+    padding: 0;
+    height: 665px;
   }
 
   .hero__bg {
@@ -575,6 +592,7 @@ img {
     max-width: 535px;
     border-radius: 12px;
     padding: 60px 15px 70px;
+    letter-spacing: 1px;
   }
 
   .stock__block::after {
@@ -641,6 +659,21 @@ img {
   .footer .copyright {
     margin-bottom: 0;
     text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero__bg .plus {
+    top: 70%;
+    right: 19%;
+  }
+
+  .hero__bg .subtract-icon {
+    left: 21%;
+  }
+
+  .hero__bg .point {
+    top: 39%;
   }
 }
 

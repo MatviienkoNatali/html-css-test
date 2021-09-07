@@ -50,7 +50,9 @@ img {
      text-align: center;
      font-weight: 600;
      color: $colorTitle;
+     letter-spacing: 0.6px;
      @include tablet{
-        font-size: 36px ;
+        font-size: 36px;
+        letter-spacing: 1px;
      }
 }

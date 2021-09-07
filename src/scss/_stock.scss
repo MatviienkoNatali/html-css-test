@@ -1,7 +1,7 @@
 .stock{
     background: linear-gradient(223.85deg, #FACCA9 -13.11%, #FFAE70 51.64%);
     position: relative;
-    padding: 73px 28px;
+    padding: 72px 28px;
     @include tablet{
         padding: 83px;
     }
@@ -18,16 +18,18 @@
     }
 
     &__block{
-        padding: 40px 15px 45px;
+        padding: 40px 15px 56px;
         margin: 0 auto;
         background: #fff;
         border-radius: 10px;
         text-align: center;
         position: relative;
+        letter-spacing: 0.9px;
         @include tablet{
             max-width: 535px;
             border-radius: 12px;
             padding: 60px 15px 70px;
+            letter-spacing: 1px;
         }
         &::after{
             content: "";
