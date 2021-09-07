@@ -19,13 +19,13 @@
 
     &__block{
         padding: 40px 15px 45px;
-        max-width: 535px;
         margin: 0 auto;
         background: #fff;
         border-radius: 10px;
         text-align: center;
         position: relative;
         @include tablet{
+            max-width: 535px;
             border-radius: 12px;
             padding: 60px 15px 70px;
         }

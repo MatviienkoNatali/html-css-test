@@ -1,7 +1,6 @@
 .hero{
     background: linear-gradient(180deg, rgba(255, 241, 233, 0.5) 21.76%, rgba(255, 241, 233, 0) 100%);
-    height: 100vh;
-    position: relative;
+    height: 665px;
     .container{
         height: 100%;
     }
@@ -20,10 +19,10 @@
             left: 15%;
         }
         .plus{
-            width: 80px;
-            height: 80px;
-            top: 80%;
-            right: 20%;
+            width: 90px;
+            height: 90px;
+            top: 71%;
+            right: 21%;
         }
         .square{
             width: 47px;
@@ -34,20 +33,20 @@
         .subtract-icon{
             width: 52px;
             height: 37px;
-            top: 80%;
-            left: 30%;
+            top: 77%;
+            left: 21%;
         }
         .point{
-            width: 24px;
-            height: 24px;
-            top: 40%;
-            right: 10%;
+            width: 30px;
+            height: 30px;
+            top: 39%;
+            right: 6%;
         }
         .point-2{
-            width: 24px;
-            height: 24px;
+            width: 30px;
+            height: 30px;
             top: 50%;
-            left: 10%;
+            left: 4%;
         }
     }
     .button{
@@ -84,6 +83,7 @@
         }
     }
     &__wrap{
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -97,6 +97,7 @@
     &__title{
         font-size: 38px;
         margin-bottom: 10px;
+        font-weight: 600;
         @include tablet{
             font-size: 45px;
             margin-bottom: 14px;
