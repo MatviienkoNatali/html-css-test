@@ -23,6 +23,7 @@
         display: none;
         @include tablet{
             display: block;
+            min-width: 122px;
         }
     }
     &__icon{

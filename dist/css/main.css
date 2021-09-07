@@ -94,7 +94,7 @@ img {
 }
 
 .container {
-  max-width: 1220px;
+  max-width: 1240px;
   padding: 0 27px;
   margin: 0 auto;
 }
@@ -475,7 +475,7 @@ img {
           box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.03), 0px 2.68036px 17.869px rgba(0, 0, 0, 0.0238443), 0px 0.79801px 5.32008px rgba(0, 0, 0, 0.0161557);
   border-radius: 12px;
   letter-spacing: 0.5px;
-  line-height: 1.68;
+  line-height: 1.4;
 }
 
 .faq__block {
@@ -528,6 +528,7 @@ img {
 
   .header .button {
     display: block;
+    min-width: 122px;
   }
 
   .hero {
@@ -631,6 +632,7 @@ img {
 
   .faq__wrap {
     padding: 15px 0px;
+    letter-spacing: 0.6px;
   }
 
   .faq__block {
