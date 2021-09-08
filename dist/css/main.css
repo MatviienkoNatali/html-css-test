@@ -419,6 +419,7 @@ img {
   text-align: center;
   position: relative;
   letter-spacing: 0.9px;
+  max-width: 400px;
 }
 
 .stock__block::after {
@@ -497,6 +498,10 @@ img {
 @media (min-width: 425px) {
   .hero__block {
     text-align: center;
+  }
+
+  .stock {
+    padding: 72px 17%;
   }
 }
 

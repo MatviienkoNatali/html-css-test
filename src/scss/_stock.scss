@@ -2,6 +2,9 @@
     background: linear-gradient(223.85deg, #FACCA9 -13.11%, #FFAE70 51.64%);
     position: relative;
     padding: 72px 28px;
+    @include mobile-md{
+        padding: 72px 17%;
+    }
     @include tablet{
         padding: 83px;
     }
@@ -25,6 +28,7 @@
         text-align: center;
         position: relative;
         letter-spacing: 0.9px;
+        max-width: 400px;
         @include tablet{
             max-width: 535px;
             border-radius: 12px;
